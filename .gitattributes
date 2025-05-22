@@ -1,2 +1,20 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Api</title>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+    <form onsubmit="getWeather();return false;">
+      <div>
+        <label for="cityName">Enter City:</label>
+        <input type="text" id="cityName" placeholder="e.g., Lahore" />
+      </div>
+      <button type="submit">Check</button>
+    </form>
+    <pre class="response"></pre>
+    <script src="./weather api.js"></script>
+  </body>
+</html>
